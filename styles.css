@@ -1,0 +1,615 @@
+/*__________________________________________TETE DU SITE_____________________________________________________________________*/
+header
+{
+width:60px;
+height:60px;
+padding: 20PX;
+}
+
+#logo/*logo*/
+{ 
+    width:100px;
+    height:100px;
+    margin-left: 25px;
+    
+
+ }
+ ul/* liens ancre */
+{
+    list-style-type:none;
+    position:absolute;
+    top:20px;
+    right:20px;
+    padding-right:50px;
+    justify-content:space-between;
+    border:none;
+    color:black;
+    font-family:'Raleway', sans-serif;
+}
+
+li
+{
+    display:inline;
+    margin:15px;
+
+}
+#menu1:visited
+{
+color:#0065FC;
+}
+#menu3:visited
+{
+color:#0065FC;
+font-weight: bold;
+}
+
+/*_______________________________________________CORP DU SITE________________________________________________________________*/
+
+h3, h2
+{
+   font-family : 'Raleway', sans-serif; 
+   font-weight: bold;
+   font-size:20px;
+
+}
+
+p
+{
+    font-family : 'Raleway', sans-serif;
+    font-size:16px;
+}
+
+#introduction
+{
+    width: 60%;
+    height: 5%;
+    margin: 2px;
+    font-family : 'Raleway', sans-serif;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+#map i  /* icon map*/
+ {
+    width: 2%;
+    padding: 18px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;
+    margin-left: 40px; 
+    
+}
+#bouton-recherche input /*boutom Marseille*/
+{
+  font-family : 'Raleway', sans-serif;
+  text-align: center;
+  font-weight:bold;
+  font-size: 16px;
+  border: solid 2px #F2F2F2;
+  padding: 15px  5px;
+} 
+
+#recherche /* boutom blue*/
+{
+    text-decoration:none;
+    color: white;
+    width: 10px;
+    padding:  17px 27px;
+    background-color:#0065FC;
+    border-radius:0px 10px 10px 0px;
+    border: none; 
+    font-family : 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 16px; 
+ 
+}
+
+#recherche:hover
+{
+    background-color:white;
+    color:black;
+    border:#0065FC;
+}
+#filtres p
+{
+    padding-right : 25px;
+}
+#filtres
+{
+    display:flex; 
+    font-family : 'Raleway', sans-serif;
+    font-weight: bold;
+    padding:30px ;
+    padding-bottom: 20px;
+    margin-left: 18px;
+}
+
+.filtre 
+{
+    display:flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    border:2px solid #F2F2F2;
+    Margin : 0 20px 0 0px;
+    padding : 1px;
+    position :relative;
+    z-index : 2;
+}
+.filtre:hover
+{
+background-color:#0065FC;
+color: white;
+}
+#filtres .filtre .cercle  
+{
+    width : 55px;
+    height : 55px;
+    border-radius: 25px;
+    background-color:#DEEBFF;
+    position:absolute;
+    z-index:2;
+    margin : 2px 0 0 -2px;
+}
+
+#filtres .filtre .cercle i 
+{    
+
+    padding: 1px;
+    text-align: center;
+    margin-top: 29%;
+    margin-left: 29%;
+    color: #0065FC;
+  
+}
+#filtres .filtre a 
+{
+    
+    padding : 0 20px 0 25px;
+    text-decoration:none;
+    font-family : 'Raleway', sans-serif;
+    font-weight: bold;
+    margin: 50px;
+    width: 50px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}  
+#info-icon
+{
+    height: 2%;
+    border-radius:  100px ;
+    border: solid 1px #F2F2F2; 
+    margin:  10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#0065FC;
+    align-items: center;
+    
+}
+
+#infos
+{
+display: flex;
+align-items: center ;
+}
+
+#pop-icone  /*_____________________________________CONTENEUR 2________________________________________*/
+{
+    display :flex; 
+    justify-content: space-between ;
+    align-items: top;
+
+}
+.titre 
+{
+    font-family : 'Raleway', sans-serif;
+    font-size:18px;
+    font-weight: bold;
+}
+.description
+{
+    font-family : 'Raleway', sans-serif;
+    font-size:16px;
+}
+.etoiles aside
+{
+ padding-bottom:10px;
+}
+.blue
+{
+  color: #0065FC;  
+}
+.grey
+{
+   color: #F2F2F2; 
+} 
+ section, aside
+{
+    display: flex;
+    position: relative;
+     justify-content: right;
+}
+#lespluspopulaire 
+{   
+    
+    border-radius:20px;
+    background-color:#F2F2F2;
+    width:320px;
+    height:600px;
+    margin-top: 20px;
+    margin: 20px;
+    padding:10px;
+}
+
+
+#lespluspopulaire1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.hotelsoleil 
+{
+    width: 95%;
+    height: 80%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:5px;
+    margin:5px;  
+
+}
+
+img#hotelsoleil2
+{
+width:135px;
+height:120px;
+border-radius: 10px 0px 0px 10px;
+float: left;
+}
+
+.chambredhote 
+{
+    width: 95%;
+    height: 80%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:5px;
+    margin:5px; 
+}
+
+img#chambredhote2 
+{
+width:135px;
+height:120px;
+border-radius:10px 0px 0px 10px;
+float: left;
+
+}
+
+.hotelblue 
+{
+    width: 95%;
+    height: 80%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:5px; 
+    margin:5px; 
+
+
+}
+
+img#hotelblue2
+{
+width:135px;
+height:120px;
+border-radius:10px 0px 0px 10px;
+float: left;
+}
+
+/*______________________________CONTENEUR 1___________________________________________________________*/
+#conteneur-hebergements
+{
+
+border-radius:20px;
+background-color:#F2F2F2;
+width:800px;
+height:600px;
+margin-top: 20PX;
+margin:20px;
+padding:10px;
+ }
+
+ #content-hebergements1
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+ }
+#content-hebergements1 a
+{
+    width : 30%;
+    padding : 10px;
+}
+
+.cannebiere
+{
+    
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px; 
+    padding-bottom:15px; 
+
+}
+img#cannebiere2
+{
+width:180px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+ }
+   
+.hotelduport
+{
+    
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0, 0, 20px #b1b1b1;
+    padding-right : 5px;
+    padding-left : 5px;
+    padding-top : 5px; 
+    padding-bottom : 15px
+ 
+}
+    
+img#hotelduport2
+{
+width:180px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+}
+
+.lesmouettes
+{
+   
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px; 
+    padding-bottom:15px; 
+
+}
+img#lesmouettes2
+{
+width:180px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+}   
+.hotellamer   
+{
+   
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px; 
+    padding-bottom:15px; 
+
+}
+
+img#hotellamer2
+{
+width:180px;
+height:130px;
+border-radius:10px 10px 0px 0px;    
+}
+.lepanier
+{
+   
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px; 
+    padding: bottom 15px; 
+
+}
+img#lepanier2
+ {
+width:180px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+ }   
+.chezamina
+{
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top:5px; 
+    padding-bottom:15px; 
+
+}
+img#chezamina2
+{
+width:180px;
+height:130PX;
+border-radius:10px 10px 0px 0px;    
+} 
+
+.plusdinfo
+{
+bottom: 1px; 
+font-weight: bold;
+}
+/*____________________________________CONTENEUR 3_________________________________________________________*/
+#conteneur-activites1
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: flex-start;
+}
+#conteneur-activites
+{
+    border-radius:20px;
+    width:800px;
+    height:250px;
+    margin:20px;
+    padding:30px;
+
+}
+.vieuxport
+{
+    width:30%;
+    height: 50%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:15px;
+    margin-bottom:20px;
+    align-self: stretch;
+ } 
+ img#vieuxport2
+ {
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+} 
+.pomegues
+{
+    width:90%;
+    height:40%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:15px;
+    margin-bottom:20px; 
+    align-self: flex-end;  
+}
+img#pomegues2
+{
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px; 
+align-self:flex-start;
+}
+
+.friouil
+{
+    width:90%;
+    height:40%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:15px;
+    margin-bottom:20px;
+   
+}
+img#friouil2
+{
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+
+}
+.calanques
+{
+    width:90%;
+    height:50%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    padding:15px;
+    margin-bottom: 20px;
+    align-self: stretch;
+}
+img#calanques2
+{
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+}
+.notredame
+{
+    width:90%;
+    height:40%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow:0 0 20px #b1b1b1;
+    position:15px;
+    margin-bottom:20px;
+    align-self: flex-end;
+}
+img#notredame2
+{
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+}
+
+.longchamp
+{
+    width:90%;
+    height:40%;
+    border-radius:15px;
+    background-color:white;
+    box-shadow : 0 0 20px #b1b1b1;
+    padding:15px;
+    margin-bottom:20px;
+    align-self:flex-start ;
+}
+img#longchamp2
+{
+width:135px;
+height:130px;
+border-radius:10px 10px 0px 0px;
+
+}
+footer /*________________________________________________________PIED DE SITE______________________________________________*/
+{
+    display:inline-flex;
+    background-color:#F2F2F2;
+    justify-content:space-between;
+}
+
+#propos
+
+{
+    width:450px;
+    height:200px;
+    margin-right:2px;
+}
+ 
+#hebergements
+{
+    width:450px ;
+    height:200px;
+    margin-right:2px;
+}
+
+#assistance
+{
+    width:400px;
+    height:200px;
+    margin-right:2px;
+}
+
+
